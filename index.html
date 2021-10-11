@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+        
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,6 +27,13 @@
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.ico">
         
+
+<script type="text/javascript">
+    function redirectIt(obj){
+    var goToLink = obj.getAttribute("href");
+    window.location.href=goToLink;
+}
+</script>
 
     </head>
 
@@ -40,7 +48,7 @@
                     </a></h1>
                 </div>
                 <div class="col-sm-8 call-us">
-                    <p>Tel: <span href="tel:+918983419131">+91-8983419131</span> | email: <span href="mailto:admin@codeblaq.tech">admin@codeblaq.tech</span></p>
+                    <p>Tel: <span onclick="redirectIt(this)" href="tel: 8983419131">+91-8983419131</span> | email: <span onclick="redirectIt(this)" href="mailto: admin@codeblaq.tech">admin@codeblaq.tech</span></p>
                 </div>
             </div>
         </div>
@@ -79,15 +87,12 @@
                 <div class="col-sm-12 subscribe">
                     <h3>Subscribe to our newsletter</h3>
                     <p>Sign up now to our newsletter and you'll be one of the first to know when the site is ready:</p>                    
-                    <form class="pageclip-form" action="https://send.pageclip.co/bm95raX746HcmjMRVvcfBYmsc8LyHVoE" method="post">
+                    <form class="pageclip-form form-inline" action="https://send.pageclip.co/KoJRfno225TliDW7CbHzmjIv3XBEDmTE" method="post">
                     	<div class="form-group">
                     		<label class="sr-only" for="subscribe-email">Email address</label>
                         	<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">
                         </div>
-                        <br/>
-                        <button type="submit" class="pageclip-form__submit">
-    <span>Send</span>
-  </button>
+                        <button type="submit" class="btn">Subscribe</button>
                     </form>
                     <div class="success-message">
                         <p> Success </p>
@@ -99,9 +104,9 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 social">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    
                     <a href="https://www.linkedin.com/company/codeblaq/" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/codeblaqtechnologies/" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://instagram.com/codeblaqtechnologies" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
                     
                 </div>
             </div>
