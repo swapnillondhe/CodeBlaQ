@@ -1,130 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CodeBlaQ</title>
+  <title>FlexStart Bootstrap Template - Index</title>
+  <meta content="" name="description">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-        
+  <meta content="" name="keywords">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.ico">
-        
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-<script type="text/javascript">
-    function redirectIt(obj){
-    var goToLink = obj.getAttribute("href");
-    window.location.href=goToLink;
-}
-</script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-    </head>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <body>
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.7.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-        <!-- Header -->
-        <div class="container">
-            <div class="row header">
-                <div class="col-sm-4 logo">
-                    <h1><a href="index.html">
-                        <img src="assets/img/logoremovebg.png">
-                    </a></h1>
-                </div>
-                <div class="col-sm-8 call-us">
-                    <p>Tel: <span onclick="redirectIt(this)" href="tel: 8983419131">+91-8983419131</span> | email: <span onclick="redirectIt(this)" href="mailto: admin@codeblaq.tech">admin@codeblaq.tech</span></p>
-                </div>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>CodeBlaQ</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>          
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400" style="text-align: justify;">We are team of talented "know it all's" providing IT solutions and services, helping you <br/><span><b>Explore Endless Opportunities</b></span></h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are</h3>
+              <h2>INSPIRED BY EXPRIENCES,<br/> FUELED BY PASSION</h2>
+              <p style="text-align: justify;">
+                At <b>Code<span style="background-color:black; color: whitesmoke;border-radius: 5px; " >BlaQ</span>,</b> We believe that people thrive on being trusted, on freedom, and on being able to make a difference. So we foster freedom and empowerment wherever we can. Making every effort to bring out best in our Employees, Interns and Traninees. Helping them make our clients feel at home
+              </p>
+              <div class="text-center text-lg-start">
+              
+                  
+                  
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Way of Work</h2>
+          <p style="font-weight:600">Put Simply, we are nerds</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-3">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <h3 style="font-size: 84px; text-align: center;font-weight: 100">N</h3>
+              <h3 style="font-weight: 50;">NAVIGATE</h3>
+              <p>We start by exploring your business, objectives and what makes it all tick.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              
+              <h3 style="font-size: 84px; text-align: center; font-weight: 100;">E</h3>
+              <h3 style="font-weight: 50;">EXPLORE</h3>
+              <p>We pull it apart in search of all opportunities. We love good ol' blue sky thinking.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              
+              <h3 style="font-size: 84px; text-align: center;font-weight: 100">R</h3>
+              <h3 style="font-weight: 50;">REFINE</h3>
+              <p>After some hustling and huddling, we refine our ideas into elegant solutions.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              
+              <h3 style="font-size: 84px; text-align: center;font-weight: 100">D</h3>
+              <h3 style="font-weight: 50;">DEFINE</h3>
+              <p>Lastly we craft user-centric products for you to take on the world. And win.</p>
+            </div>
+          </div>
+
         </div>
 
-        <!-- Coming Soon -->
-        <div class="coming-soon">
-            <div class="inner-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 card">
-                            <h2>We're Coming Soon</h2>
-                            <p>We are working very hard on the new version of our site. It will bring a lot of new features. Stay tuned!</p>
-                            <div class="timer">
-                                <div class="days-wrapper">
-                                    <span class="days"></span> <br>days
-                                </div>
-                                <div class="hours-wrapper">
-                                    <span class="hours"></span> <br>hours
-                                </div>
-                                <div class="minutes-wrapper">
-                                    <span class="minutes"></span> <br>minutes
-                                </div>
-                                <div class="seconds-wrapper">
-                                    <span class="seconds"></span> <br>seconds
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+
+    </section><!-- End Values Section -->
+
+    
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Values</h2>
+          <p>While keeping the way we work we abide by some values</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img src="assets/img/features.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Agility</h3>
                 </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Collaboration</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Communicating With Impact</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Developing Self & Others</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Focus on the user and all else will follow.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Great just isn’t good enough</h3>
+                </div>
+              </div>
+
             </div>
+          </div>
+
+        </div> <!-- / row -->
+
+      
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Services</h2>
+          <p>Few of services we are specelized in</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Web Development</h3>
+              <p>We can Develop or Design any kind of website and web application for your brand or business growth</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="ri-discuss-line icon"></i>
+              <h3>IoT Systems</h3>
+              <p>We switch your manual work on automation with the help of IOT, It help's you to make everything easier.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Android Development</h3>
+              <p>We have expert's for android application development , We also help you to rank your application.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Trainings &amp; Internships</h3>
+              <p>We provide Industrial training / Internship to BE, MCA, MCS and IT Students. We specialize in Mobile technologies and Internet of Things.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box purple">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Software Development &amp; Maintanance</h3>
+              <p>We develop customized software's as per customer's need. Ex. Billing software , Company management.</p>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <i class="ri-discuss-line icon"></i>
+              <h3>DevOps</h3>
+              <p>We have DevOps Teams for remote Hire. Help boost you business and utlize the full potential of CI/CD and DevOps process without needing to have your own</p>
+              
+            </div>
+          </div>
+
         </div>
 
-        <!-- Content -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 subscribe">
-                    <h3>Subscribe to our newsletter</h3>
-                    <p>Sign up now to our newsletter and you'll be one of the first to know when the site is ready:</p>                    
-                    <form class="pageclip-form form-inline" action="https://send.pageclip.co/KoJRfno225TliDW7CbHzmjIv3XBEDmTE" method="post">
-                    	<div class="form-group">
-                    		<label class="sr-only" for="subscribe-email">Email address</label>
-                        	<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">
-                        </div>
-                        <button type="submit" class="btn">Subscribe</button>
-                    </form>
-                    <div class="success-message">
-                        <p> Success </p>
-                    </div>
-                    <div class="error-message">
-                        <p> Failure </p>
-                    </div>
+      </div>
+
+    </section><!-- End Services Section -->
+
+    
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    What kind of web services you provide?
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    From Legacy HTML, CSS to Futuristic MERN/MEAN stack websites we provide them all.We will dicsuss your needs and we will also suggest the best suitable type according to your needs if required.
+                  </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 social">
-                    
-                    <a href="https://www.linkedin.com/company/codeblaq/" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://instagram.com/codeblaqtechnologies" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
-                    
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    What is Iot system? how it can help me?
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    IoT stands for Internet of Things. This technology is used to eliminate the manual day to day task and automate the process for Convenience, Cost Saving &amp; Precision. Get in touch to discuss your needs with us and we will design best system suitable to you
+                  </div>
                 </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    What is Mobile App Development?
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Mobile App development is Developing Apps that work on mobile operating systems such as Android and IOS,
+                    We develop Mobile apps that are Fast, Optimized and Secure. We also help you in ranking the.
+                  </div>
+                </div>
+              </div>
+
             </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    What is CI/CD or DevOps?
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                     CI/CD or CICD is the combined practices of continuous integration and either continuous delivery or continuous deployment. CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    What trainings and Internships do you provide?
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    We provide Trainings and Internships in various domains such as web development, app development, cloud computing, Digital marketing, etc. We also sign MoU institutes to help students for in house industry exposure.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    What is Custom software development and How do you maintain it?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    We develop Custom software according to your needs, New hotel management software..? We got it... New Retail store management software with Billing..?? we got that too. <br/>
+                    Just like any other manufactured product Software also needs maintenance unfortunately if your software provider is not providing you with maintenance we have also got that covered. Get is touch with us to know more.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
 
-        
-        <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/jquery.countdown.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-        
-        <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
-        <![endif]-->
+      </div>
 
-    </body>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>CodeBlaQ, Sinnar,<br>Nashik, MH 422103</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p ><a href="tel:+918983419131">+91-8983419131</a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p><a href="mailto:admin@codeblaq.tech"> admin@codeblaq.tech</a><br><a href="mailto:Careers@codeblaq.tech">Careers@codeblaq.tech</a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Join our Newsletter to stay up to date on our latest offers and services.</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>CodeBlaQ</span>
+            </a>
+            <p>Explore Endless Opportunities</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/codeblaqtechnologies" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://instagram.com/codeblaqtechnologies" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/codeblaq/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              CodeBlaQ, Sinnar <br>
+              Nashik, MH 422103<br>
+              India <br><br>
+              <strong>Phone:</strong><a href="tel:+918983419131"> +91-8983419131<br>
+              <strong>Email:</strong><a href="mailto:admin@codeblaq.tech"></a> admin@codeblaq.tech<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>CodeBlaQ Technologies</span></strong>. All Rights Reserved
+      </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
